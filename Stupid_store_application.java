@@ -2,7 +2,7 @@ package KA WONDER;
 
 import java.util.Scanner;
 
-public class Stupid_store_application {
+public class KA WONDER_store_application {
     public static Scanner input = new Scanner(System.in);
     public static String again;
     public static int discount=1;
