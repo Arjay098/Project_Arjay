@@ -5,6 +5,8 @@
  */
 package pkgnew.topic;
 
+import java.util.stream.IntStream;
+
 /**
  *
  * @author Student
@@ -16,17 +18,23 @@ public class NewTopic {
      */
     public static void main(String[] args) {
   
-        int previous=0;
-            int current=1;
-        for(int i=1;i<=10;i++){
+     double A [ ]={1,3,4,5,20,21,89,23};
     
-            
-      
-            int next=previous+current;
-            previous=current;
-                    current=next;
-                    System.out.println(next);
-            }
+     double length= A.length;
+     
+  
+    double sum=0;
+      for (int i=0; i < A.length; i++){
+         sum+=A[i];
+     System.out.println("Sum of array is :" + sum);
+  
+     
+    
+    }
+ 
+   double average = sum/A.length;  
+     System.out.println("Sum of array is :" + sum);
+   System.out.println("Average of array is:" + average);
     }
 }
 
