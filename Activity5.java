@@ -15,7 +15,7 @@ public class Activity5 {
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the Riemann Sum Program!");
+        System.out.println(" Riemann Sum ");
         
         // Prompt the user to enter the function to integrate
         System.out.print("Enter the function to integrate (use 'x' as the variable): ");
