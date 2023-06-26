@@ -293,16 +293,16 @@ public class GradeCalculating extends javax.swing.JFrame {
         
         if (Calculus >=90){
             CalGrade.setText("A");
-            gpa = gpa + 4.0;
+            gpa = gpa + 1.0;
         }else if (Calculus >=80 && Calculus < 90){
             CalGrade.setText("B");    
-             gpa = gpa + 3.0;
+             gpa = gpa + 2.0;
         }else if (Calculus >=70 && Calculus < 80){
             CalGrade.setText("C");
-             gpa = gpa + 2.0;
+             gpa = gpa + 3.0;
          }else if (Calculus >=60 && Calculus < 70){
             CalGrade.setText("D"); 
-             gpa = gpa + 1.0;
+             gpa = gpa + 4.0;
          }else {
             CalGrade.setText("F");
              gpa = gpa + 0;
@@ -310,16 +310,16 @@ public class GradeCalculating extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 if (Physics >=90){
             PhysGrade.setText("A");
-            gpa = gpa + 4.0;
+            gpa = gpa + 1.0;
         }else if (Physics >=80 && Physics < 90){
             PhysGrade.setText("B");    
-             gpa = gpa + 3.0;
+             gpa = gpa + 2.0;
         }else if (Physics >=70 && Physics < 80){
             PhysGrade.setText("C");
-             gpa = gpa + 2.0;
+             gpa = gpa + 3.0;
          }else if (Physics >=60 && Physics < 70){
             PhysGrade.setText("D"); 
-             gpa = gpa + 1.0;
+             gpa = gpa + 4.0;
          }else {
             PhysGrade.setText("F");
              gpa = gpa + 0;
@@ -327,16 +327,16 @@ if (Physics >=90){
     }    
 if (ComputerProg >=90){
             CompGrade.setText("A");
-            gpa = gpa + 4.0;
+            gpa = gpa + 1.0;
         }else if (ComputerProg >=80 && ComputerProg < 90){
            CompGrade.setText("B");    
-             gpa = gpa + 3.0;
+             gpa = gpa + 2.0;
         }else if (ComputerProg >=70 && ComputerProg < 80){
             CompGrade.setText("C");
-             gpa = gpa + 2.0;
+             gpa = gpa + 3.0;
          }else if (ComputerProg >=60 && ComputerProg < 70){
             CompGrade.setText("D"); 
-             gpa = gpa + 1.0;
+             gpa = gpa + 4.0;
          }else {
             CompGrade.setText("F");
              gpa = gpa + 0;
@@ -344,16 +344,16 @@ if (ComputerProg >=90){
     }   
 if (ContemporaryWorld >=90){
             ContempGrade.setText("A");
-            gpa = gpa + 4.0;
+            gpa = gpa + 1.0;
         }else if (ContemporaryWorld >=80 && ContemporaryWorld < 90){
            ContempGrade.setText("B");    
-             gpa = gpa + 3.0;
+             gpa = gpa + 2.0;
         }else if (ContemporaryWorld >=70 && ContemporaryWorld < 80){
             ContempGrade.setText("C");
-             gpa = gpa + 2.0;
+             gpa = gpa + 3.0;
          }else if (ContemporaryWorld >=60 && ContemporaryWorld < 70){
            ContempGrade.setText("D"); 
-             gpa = gpa + 1.0;
+             gpa = gpa + 4.0;
          }else {
             ContempGrade.setText("F");
              gpa = gpa + 0;
