@@ -133,52 +133,63 @@ public class KA WONDER_store_application {
         switch (choose) {
  
             case 1:
-                System.out.println("You chose A5 Wagyu Steak");
+                System.out.println("You chose Chicken Pako");
                 System.out.println("Enter the quantity of your order: "); quantity =input.nextInt();   
-                total = total +(quantity*329);
+                total = total +(quantity*40);
       break;
             
             case 2:
-                System.out.println("You chose Beluga Caviar");
+                System.out.println("You chose Chicken Unod");
                 System.out.println("Enter the quantity of your order: "); quantity =input.nextInt();         
-                total = total +(quantity*279);        
+                total = total +(quantity*50);        
        break;
            
             case 3:
-                System.out.println("You chose Fourchu Lobster");
+                System.out.println("You chose Chicken Isaw");
                 System.out.println("Enter the quantity of your order: "); quantity =input.nextInt();               
-                total = total +(quantity*349);
+                total = total +(quantity*15);
        break;
             
             case 4:
-                System.out.println("You chose is Tiger Fugu");
+                System.out.println("You chose Chicken Liog");
                 System.out.println("Enter the quantity of your order: ");
                 quantity =input.nextInt();
                 total = total +(quantity*250);
       break;
             
             case 5:
-                System.out.println("You chose White Alba Truffle");
+                System.out.println("You chose Chicken Panit");
                 System.out.println("Enter the quantity of your order: ");
                 quantity =input.nextInt();
-                total = total +(quantity*229);
+                total = total +(quantity*25);
       break;
-            
+                    
             case 6:
+                System.out.println("You chose Puso");
+                System.out.println("Enter the quantity of your order: ");
+                quantity =input.nextInt();
+                total = total +(quantity*10);
+      break;
+               case 7:
+                System.out.println("You chose Coke");
+                System.out.println("Enter the quantity of your order: ");
+                quantity =input.nextInt();
+                total = total +(quantity*15);
+      break;
+            case 8:
                 System.exit(0);
             
             default:
-                System.out.println("Choose 1 to 6 only!");
+                System.out.println("Choose 1 to 7 only!");
                 order();
         break;
         }
         
-                if(total >=700){
-                    System.out.println("You have 1 free pitcher of any drink of your choice!");
+                if(total >=100){
+                    System.out.println("Total order of Php 100 to get 1 bottle of coke!");
                 }       
-                if( total >=1500){
-                    System.out.println("You have 1 order of Tiger Fugu it's on the house!!!");
-                }
+                
+                
                               
                 System.out.println("");
                 System.out.println("Add more?");
@@ -190,8 +201,8 @@ public class KA WONDER_store_application {
                 else{
                     System.out.println("\t---Discount List---");
                     System.out.println(" We also offer discount to the following:");
-                System.out.println(" Code 1 - Couple discount ( 5% off )");
-                System.out.println(" Code 2 - Birthday discount ( 10% off )");
+                System.out.println(" Code 1 -  Buying worth of 150  ( 5% off )");
+                System.out.println(" Code 2 -Buying worth of 200 ( 10% off )");
                 System.out.println(" Note: Discounts cannot be stacked");
                     System.out.println("");
                     System.out.println("Enter 3 if neither applicable");
@@ -232,24 +243,23 @@ public class KA WONDER_store_application {
                         choose = input.nextInt();
                         if(choose==1){
                             System.out.println("\t\t\t\t+=========================================+");
-    System.out.println("\t\t\t\t           Jamielicious MENU          ");
-    System.out.println("\t\t\t\t   1. A5 Wagyu Steak       Php. 329.00");
-    System.out.println("\t\t\t\t   2. Beluga Caviar        Php. 279.00");
-    System.out.println("\t\t\t\t   3. Fourchu Lobster      Php. 349.00");
-    System.out.println("\t\t\t\t   4. Tiger Fugu           Php. 250.00");
-    System.out.println("\t\t\t\t   5. White Alba Truffle   Php. 229.00");
-    System.out.println("\t\t\t\t+=========================================+");
+    System.out.println("\t\t\t\t          MAPAPA WOW KA SA SARAP        ");
+   System.out.println("\t\t\t\t   1. Chicken Pako        Php.40");
+    System.out.println("\t\t\t\t   2. Chicken Unod        Php.50 ");
+    System.out.println("\t\t\t\t   3. Chicken Isaw        Php.15");
+    System.out.println("\t\t\t\t   4. Chicken Liog        Php.25");
+     System.out.println("\t\t\t\t   5. Chicken Panit       Php.20");
+     System.out.println("\t\t\t\t   6. Puso               Php.10");
+     System.out.println("\t\t\t\t   7. Coke                Php.20");
         System.out.println("");
-    System.out.println("\t\t\t\t   AVAIL OUR PROMO NOW!");
-    System.out.println("\t\t   - Total order of Php 700.00 or more to get 1 pitcher of any drink of your choice!");
-    System.out.println("\t\t   - Total order of Php 1500.00 or more get 1 order of Tiger Fugu it's on the house!!!");
-    System.out.println("\t\t    Note: Can avail both promos at the same time.");
+    System.out.println("\t\t\t\t    PROMO NOW!");
+    System.out.println("\t\t   - Unli Chicken and Unli Rice for Php 250 ");
+    System.out.println("\t\t   - Total order of Php 100 to get 1 bottle of coke !");
+   
         System.out.println("");
     System.out.println("\t\t\t\t   We also offer discounts on the following:");
-    System.out.println("\t\t\t\t     Code 1 - Couple discount ( 5% off )");
-    System.out.println("\t\t\t\t     Code 2 - Birthday discount ( 10% off )");
-    System.out.println("\t\t\t\t     Note: Discounts cannot be stacked");
-    total=total-total;
+    System.out.println("\t\t\t\t     1.)  Buying worth of 150 ( 5% off )");
+    System.out.println("\t\t\t\t     2 .) Buying worth of 200( 10% off )");
                             order();}
                         else{System.exit(0);}    
     }     
